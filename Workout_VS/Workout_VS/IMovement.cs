@@ -8,6 +8,7 @@ namespace Workout_VS
 {
     interface IMovement
     {
+        int Speed { get; set; }
         void Move();
     }
 }
